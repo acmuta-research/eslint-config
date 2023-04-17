@@ -1,0 +1,6 @@
+{
+	"extends": [
+		"plugin:vitest/recommended",
+		"plugin:jest-dom/recommended"
+	]
+}

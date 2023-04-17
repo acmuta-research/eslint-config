@@ -1,0 +1,13 @@
+{
+	"extends": [
+		"plugin:json-schema-validator/recommended",
+		"plugin:jsonc/recommended-with-jsonc"
+	],
+	"plugins": [
+		"eslint-plugin-json-es"
+	],
+	"rules": {
+		"indent": [ "error", "tab" ],
+		"max-len": "off"
+	}
+}
