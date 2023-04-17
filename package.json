@@ -1,6 +1,6 @@
 {
 	"name": "@acmuta-research/eslint-config",
-	"author": "Samantha",
+	"author": "Samantha Nguyen <contact@samanthanguyen.me>",
 	"license": "MIT",
 	"version": "1.0.0",
 	"description": "ESLint standard config for ACM UTA Research",
@@ -14,27 +14,21 @@
 	},
 	"keywords": [
 		"eslint",
-		"style-config",
+		"eslint-config",
 		"acmuta-research"
 	],
-	"main": "common.json",
+	"main": "src/index.js",
 	"files": [
-		"common.json",
-		"jsdoc.json",
-		"json.json",
-		"react.json",
-		"typescript.json",
-		"vitest.json",
-		"yaml.json"
+		"src"
 	],
 	"scripts": {
 		"clean": "rm -rf ./node_modules && rm -rf ./package-lock.json",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"lint:fix": "npm run lint -- --fix"
 	},
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.56.0",
 		"@typescript-eslint/parser": "^5.56.0",
-		"eslint": "^8.36.0",
 		"eslint-plugin-jest-dom": "^4.0.3",
 		"eslint-plugin-jsdoc": "^40.1.0",
 		"eslint-plugin-json-es": "^1.5.7",
@@ -44,6 +38,7 @@
 		"eslint-plugin-markdown": "^3.0.0",
 		"eslint-plugin-no-jquery": "^2.7.0",
 		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^6.1.1",
 		"eslint-plugin-react": "^7.32.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-security": "^1.7.1",

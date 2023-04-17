@@ -5,7 +5,7 @@
 		"node": true
 	},
 	"extends": [
-		"eslint:recommended",
+		"./index.json",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:@typescript-eslint/recommended-requiring-type-checking"
 	],
@@ -19,7 +19,7 @@
 		"@typescript-eslint/eslint-plugin"
 	],
 	"ignorePatterns": [
-		"dist/**/*.ts",
+		"dist/**/*.ts"
 	],
 	"rules": {
 		"@typescript-eslint/adjacent-overload-signatures": ["error"],
