@@ -28,8 +28,8 @@
 		"yaml.json"
 	],
 	"scripts": {
-		"lint": "eslint .",
-		"clean": "rm -rf ./node_modules && rm -rf ./package-lock.json"
+		"clean": "rm -rf ./node_modules && rm -rf ./package-lock.json",
+		"lint": "eslint ."
 	},
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.56.0",
