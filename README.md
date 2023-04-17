@@ -1,5 +1,9 @@
 # @acmuta-research/eslint-config
 
+[![npm (scoped)](https://img.shields.io/npm/v/@acmuta-research/eslint-config)](https://www.npmjs.com/package/@acmuta-research/eslint-config)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Node CI](https://github.com/acmuta-research/eslint-config/actions/workflows/ci.yml/badge.svg)](https://github.com/acmuta-research/eslint-config/actions/workflows/ci.yml)
+
 This package contains the ESLint configuration used by the ACM UTA Research team.
 
 ## Installation
@@ -10,7 +14,7 @@ npm install --save-dev @acmuta-research/eslint-config
 
 ## Configure
 
-Add the following to your `eslint.config.js` file:
+Add the following to your `.eslintrc.json` file:
 
 ```json
 {
