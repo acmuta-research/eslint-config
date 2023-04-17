@@ -3,7 +3,7 @@
 	"author": "Samantha",
 	"license": "MIT",
 	"version": "1.0.0",
-	"description": "eslint standard config for ACM UTA Research",
+	"description": "ESLint standard config for ACM UTA Research",
 	"homepage": "https://github.com/acmuta-research/eslint-config#readme",
 	"repository": {
 		"type": "git",
@@ -50,11 +50,9 @@
 		"eslint-plugin-simple-import-sort": "^10.0.0",
 		"eslint-plugin-storybook": "^0.6.11",
 		"eslint-plugin-testing-library": "^5.10.2",
+		"eslint-plugin-unicorn": "^46.0.0",
 		"eslint-plugin-vitest": "^0.0.54",
 		"eslint-plugin-yml": "^1.5.0",
 		"remove": "^0.1.5"
-	},
-	"devDependencies": {
-		"eslint-plugin-unicorn": "^46.0.0"
 	}
 }

@@ -11,7 +11,8 @@
 		"./jsdoc"
 	],
 	"plugins": [
-		"simple-import-sort"
+		"simple-import-sort",
+		"unicorn"
 	],
 	"rules": {
 		"simple-import-sort/imports": "error",
