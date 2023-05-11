@@ -6,7 +6,7 @@
 	},
 	"extends": [
 		"eslint:recommended",
-    "plugin:promise/recommended",
+		"plugin:promise/recommended",
 		"plugin:security/recommended",
 		"./json",
 		"./jsdoc"

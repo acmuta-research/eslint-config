@@ -2,7 +2,7 @@
 	"name": "@acmuta-research/eslint-config",
 	"author": "Samantha Nguyen <contact@samanthanguyen.me>",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "ESLint standard config for ACM UTA Research",
 	"homepage": "https://github.com/acmuta-research/eslint-config#readme",
 	"repository": {
@@ -17,9 +17,16 @@
 		"eslint-config",
 		"acmuta-research"
 	],
-	"main": "src/index.js",
+	"main": "index.json",
 	"files": [
-		"src"
+		"index.json",
+		"jsdoc.json",
+		"json.json",
+		"react.json",
+		"react-tsx.json",
+		"typescript.json",
+		"vitest.json",
+		"yaml.json"
 	],
 	"scripts": {
 		"clean": "rm -rf ./node_modules && rm -rf ./package-lock.json",
@@ -49,5 +56,8 @@
 		"eslint-plugin-vitest": "^0.2.2",
 		"eslint-plugin-yml": "^1.5.0",
 		"remove": "^0.1.5"
+	},
+	"peerDependencies": {
+		"eslint": "^8.40.0"
 	}
 }
