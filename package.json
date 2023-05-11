@@ -2,7 +2,7 @@
 	"name": "@acmuta-research/eslint-config",
 	"author": "Samantha Nguyen <contact@samanthanguyen.me>",
 	"license": "MIT",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "ESLint standard config for ACM UTA Research",
 	"homepage": "https://github.com/acmuta-research/eslint-config#readme",
 	"repository": {
