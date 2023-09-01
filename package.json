@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.56.0",
 		"@typescript-eslint/parser": "^5.56.0",
-		"eslint-plugin-jest-dom": "^4.0.3",
+		"eslint-plugin-jest-dom": "^5.1.0",
 		"eslint-plugin-jsdoc": "^46.1.0",
 		"eslint-plugin-json-es": "^1.5.7",
 		"eslint-plugin-json-schema-validator": "^4.3.0",
